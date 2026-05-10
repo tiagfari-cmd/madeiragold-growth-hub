@@ -13,7 +13,7 @@ export function LangSwitch() {
           }`}
           aria-pressed={lang === l}
         >
-          {l}
+          {l.toUpperCase()}
         </button>
       ))}
     </div>
