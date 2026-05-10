@@ -91,17 +91,6 @@
   color: transparent;
 }
 
-@utility hairline {
-  position: relative;
-}
-@utility hairline::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
-}
-
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
