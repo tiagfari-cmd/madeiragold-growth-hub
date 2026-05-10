@@ -15,7 +15,6 @@ export function LocationSection() {
           titleEm: "Madeira",
           sub: "O nosso estúdio está aberto a parceiros, marcas e amigos. Marque visita.",
           city: "Madeira, Portugal",
-          coords: "32.7290° N · 16.7745° W",
           cta: "Abrir no Google Maps",
         }
       : {
@@ -24,7 +23,6 @@ export function LocationSection() {
           titleEm: "Madeira",
           sub: "Our studio is open to partners, brands and friends. Book a visit.",
           city: "Madeira, Portugal",
-          coords: "32.7290° N · 16.7745° W",
           cta: "Open in Google Maps",
         };
 
@@ -41,10 +39,7 @@ export function LocationSection() {
           <div className="mt-10 space-y-4 border-t border-border/50 pt-8">
             <div className="flex items-start gap-3">
               <MapPin className="mt-0.5 h-5 w-5 text-primary" />
-              <div>
-                <p className="font-display text-lg text-foreground">{copy.city}</p>
-                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">{copy.coords}</p>
-              </div>
+              <p className="font-display text-lg text-foreground">{copy.city}</p>
             </div>
             <a
               href={MAPS_URL}
