@@ -6,6 +6,7 @@ import logo from "@/assets/mediagest-logo.png";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { LocationSection } from "@/components/LocationSection";
 import { useI18n } from "@/lib/i18n";
 
 export const Route = createFileRoute("/")({
@@ -27,6 +28,7 @@ function Index() {
       <About />
       <Services />
       <Pricing />
+      <LocationSection />
       <AnalysisCTA />
       <Footer />
       <WhatsAppButton />
