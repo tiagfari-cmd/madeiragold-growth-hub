@@ -76,11 +76,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "MediaGest Creative Studios — Social Media Management, Madeira" },
       { name: "description", content: "Premium social media management, reels and Meta ads strategy for ambitious brands. Based in Madeira. Part of the Cineadd group." },
       { name: "author", content: "MediaGest Creative Studios" },
-      { property: "og:title", content: "MediaGest Creative Studios" },
-      { property: "og:description", content: "Cinematic social media management & brand growth from Madeira." },
+      { property: "og:title", content: "MediaGest Creative Studios — Social Media Management, Madeira" },
+      { property: "og:description", content: "Premium social media management, reels and Meta ads strategy for ambitious brands. Based in Madeira. Part of the Cineadd group." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MediaGest Creative Studios — Social Media Management, Madeira" },
+      { name: "twitter:description", content: "Premium social media management, reels and Meta ads strategy for ambitious brands. Based in Madeira. Part of the Cineadd group." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/336645d4-ced3-4643-8a6c-b2afd3b72da2/id-preview-5553c7e3--35ff3b96-6263-40f1-855d-e641ca350aa3.lovable.app-1778456889141.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/336645d4-ced3-4643-8a6c-b2afd3b72da2/id-preview-5553c7e3--35ff3b96-6263-40f1-855d-e641ca350aa3.lovable.app-1778456889141.png" },
     ],
     links: [
       {
