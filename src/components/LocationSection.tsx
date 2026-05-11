@@ -1,5 +1,6 @@
 import { MapPin, ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
+import { Reveal } from "@/components/Reveal";
 
 const MAPS_URL = "https://maps.app.goo.gl/dKtayVj9gDv2gAV78";
 const EMBED_URL =
@@ -29,7 +30,7 @@ export function LocationSection() {
   return (
     <section id="location" className="relative border-t border-border/40 bg-onyx py-32">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-12">
-        <div className="lg:col-span-4">
+        <Reveal className="lg:col-span-4">
           <p className="text-[10px] uppercase tracking-[0.4em] text-primary">{copy.label}</p>
           <h2 className="mt-6 font-display text-5xl leading-tight sm:text-6xl">
             {copy.title1}<span className="text-gold-gradient">{copy.titleEm}</span>.
@@ -51,9 +52,9 @@ export function LocationSection() {
               <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
           </div>
-        </div>
+        </Reveal>
 
-        <div className="relative lg:col-span-8">
+        <Reveal delay={0.15} className="relative lg:col-span-8">
           <div className="relative overflow-hidden rounded-sm border border-primary/20 shadow-[var(--shadow-deep)]">
             <iframe
               title="MediaGest Creative Studios — Madeira"
@@ -67,7 +68,7 @@ export function LocationSection() {
             />
             <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-primary/10" />
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
