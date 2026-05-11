@@ -202,7 +202,7 @@ const I18nCtx = createContext<{ lang: Lang; setLang: (l: Lang) => void; t: Dict;
   waUrl: "",
 });
 
-const PHONE = "351000000000";
+const PHONE = "351963162323";
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>("pt");
