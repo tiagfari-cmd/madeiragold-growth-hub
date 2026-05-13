@@ -12,7 +12,7 @@ export function Results() {
         <Reveal className="mb-16 max-w-2xl">
           <p className="text-[10px] uppercase tracking-[0.4em] text-primary">{r.label}</p>
           <h2 className="mt-6 font-display text-5xl leading-tight sm:text-6xl">
-            {r.title1}<span className="text-gold-gradient">{r.titleEm}</span>{r.titleEnd}
+            {r.title1}<em className="italic text-gold-gradient">{r.titleEm}</em>{r.titleEnd}
           </h2>
           <p className="mt-6 text-sm leading-relaxed text-muted-foreground">{r.sub}</p>
         </Reveal>
