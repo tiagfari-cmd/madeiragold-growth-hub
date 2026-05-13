@@ -279,10 +279,10 @@ function AnalysisCTA() {
           <motion.img variants={revealItem} src={logo} alt="MediaGest" className="mx-auto h-20 w-auto opacity-95" />
           <motion.p variants={revealItem} className="mt-8 text-[10px] uppercase tracking-[0.4em] text-primary">{t.analysis.noCommit}</motion.p>
           <motion.h2 variants={revealItem} className="mt-6 font-display text-5xl leading-[1.05] sm:text-7xl">
-            {t.analysis.title1}<em className="not-italic text-gold-gradient">{t.analysis.titleEm}</em>{t.analysis.titleEnd}
+            {t.analysis.title1}<em className="italic text-gold-gradient">{t.analysis.titleEm}</em>{t.analysis.titleEnd}
           </motion.h2>
           <motion.p variants={revealItem} className="mx-auto mt-8 max-w-xl text-base text-muted-foreground">{t.analysis.sub}</motion.p>
-          <motion.a variants={revealItem} href={waUrl} target="_blank" rel="noreferrer" className="mt-10 inline-flex items-center gap-3 rounded-full bg-primary px-9 py-5 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground shadow-[var(--shadow-gold)] transition-all hover:scale-[1.02]">
+          <motion.a variants={revealItem} href={waUrl} target="_blank" rel="noreferrer" className="cta-hover mt-10 inline-flex items-center gap-3 rounded-full bg-primary px-9 py-5 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground shadow-[var(--shadow-gold)]">
             {t.analysis.cta} <ArrowRight className="h-4 w-4" />
           </motion.a>
           <motion.p variants={revealItem} className="mt-6 text-xs uppercase tracking-[0.3em] text-muted-foreground">{t.analysis.foot}</motion.p>
