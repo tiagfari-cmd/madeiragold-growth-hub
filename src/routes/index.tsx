@@ -8,6 +8,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { LocationSection } from "@/components/LocationSection";
+import { Results } from "@/components/Results";
 import { Reveal, RevealStagger, revealItem } from "@/components/Reveal";
 import { useI18n } from "@/lib/i18n";
 
@@ -29,6 +30,7 @@ function Index() {
       <Marquee />
       <About />
       <Services />
+      <Results />
       <Pricing />
       <LocationSection />
       <AnalysisCTA />

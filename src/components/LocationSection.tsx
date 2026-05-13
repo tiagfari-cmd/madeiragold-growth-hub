@@ -11,7 +11,7 @@ export function LocationSection() {
   const copy =
     lang === "pt"
       ? {
-          label: "04 — Localização",
+          label: "06 — Localização",
           title1: "Encontre-nos na ",
           titleEm: "Madeira",
           sub: "O nosso estúdio está aberto a parceiros, marcas e amigos. Marque visita.",
@@ -19,7 +19,7 @@ export function LocationSection() {
           cta: "Abrir no Google Maps",
         }
       : {
-          label: "04 — Location",
+          label: "06 — Location",
           title1: "Find us in ",
           titleEm: "Madeira",
           sub: "Our studio is open to partners, brands and friends. Book a visit.",
